@@ -65,7 +65,7 @@ const ContactSection = () => {
 
       // Send email using EmailJS with your credentials
       const response = await emailjs.send(
-        'service_iabrmyv', // Replace with your Service ID
+        'service_iabrmyv',
         'template_2rfrito',
         templateParams,
         'RYp3CIKcXZlEb34kV'
@@ -137,7 +137,7 @@ const ContactSection = () => {
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
                 return (
-                  
+                  <a
                     key={index}
                     href={info.href}
                     target={info.href.startsWith("http") ? "_blank" : undefined}
