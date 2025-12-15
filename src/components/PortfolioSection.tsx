@@ -4,17 +4,16 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Star, Award, Zap } from "lucide-react";
 
 const projects = [
-  {
+    {
     id: 1,
-    title: "Lekhari - Urdu AI Platform",
-    role: "Project Lead",
+    title: "STC Form Panda",
+    role: "Full Stack Developer",
     description:
-      "World's first scratched-based Urdu language AI model. Revolutionary NLP solution for Urdu linguistic processing including synonyms, antonyms, grammar check, and summarization.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-    tags: ["Python", "Machine Learning", "NLP", "React", "AI"],
-    link: "https://lekharicelt.vercel.app/",
-    featured: true,
-    highlight: "World's First Urdu AI Model",
+      "Enterprise form management system built with .NET Web API backend and React frontend. Robust SQL Server database with complex business logic.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    tags: [".NET Core", "React", "SQL Server", "REST API"],
+    link: "https://stc.formpanda.com.au/",
+    featured: false,
   },
   {
     id: 2,
@@ -29,14 +28,15 @@ const projects = [
   },
   {
     id: 3,
-    title: "STC Form Panda",
-    role: "Full Stack Developer",
+    title: "Lekhari - Urdu AI Platform",
+    role: "Project Lead",
     description:
-      "Enterprise form management system built with .NET Web API backend and React frontend. Robust SQL Server database with complex business logic.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    tags: [".NET Core", "React", "SQL Server", "REST API"],
-    link: "https://stc.formpanda.com.au/",
-    featured: false,
+      "World's first scratched-based Urdu language AI model. Revolutionary NLP solution for Urdu linguistic processing including synonyms, antonyms, grammar check, and summarization.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+    tags: ["Python", "Machine Learning", "NLP", "React", "AI"],
+    link: "https://newlekharicelt.vercel.app/",
+    featured: true,
+    highlight: "World's First Urdu AI Model",
   },
 ];
 
